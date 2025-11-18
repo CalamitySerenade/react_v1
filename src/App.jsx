@@ -5,13 +5,22 @@ import './App.css'
 import Card from './components/card.jsx'
 import Card2 from './components/card2.jsx'
 import Navbar from './components/navbar.jsx'
+import Card3 from './components/Card3.jsx';
 
 function App() {
   return(
     <>
-    <div className="day-four">
+    <div className="day-four-one">
       <Navbar/>
     </div>
+    <div className="day-four-two">
+    <Card3
+      product="Nike Air Max"
+      desc="comfortable running shoes"
+      price="$139.99"
+      src="https://www.bing.com/th?id=OPHS.nuzf8S%2bR3S9uhg474C474&o=5&pid=21.1&w=140&h=140&qlt=100&dpr=0.9&c=17&pcl=f5f5f5"/>
+    </div>
+
     <div className="day-one">
       <h3>
         Day 1 - Intro to react
