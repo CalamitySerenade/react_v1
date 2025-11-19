@@ -6,6 +6,9 @@ import Card from './components/card.jsx'
 import Card2 from './components/card2.jsx'
 import Navbar from './components/navbar.jsx'
 import Card3 from './components/Card3.jsx';
+import SecretMsg from './components/SecretMsg.jsx'
+import ChallengeB from './components/ChallengeB.jsx'
+import ProfileCard from './components/ProfileCard.jsx'
 
 function App() {
   return(
@@ -49,6 +52,12 @@ function App() {
       <Card2 stu_name={"Jared Meza"} stu_class={"Adv Prog"} stu_exam={"react day-2"} stu_grade={100}/>
       <Card2 stu_name={"Bryan Alves"} stu_class={"Adv Prog"} stu_exam={"react day-1"} stu_grade={0}/>
       <Card2 stu_name={"Mateus Souza"} stu_class={"Adv Prog"} stu_exam={"react day-4"} stu_grade={95}/>
+    </div>
+
+    <div className="day-five">
+      <SecretMsg/>
+      <ChallengeB/>
+      <ProfileCard/>
     </div>
     </>
   )
